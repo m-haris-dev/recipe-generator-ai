@@ -3,6 +3,7 @@ import React, { useState, useRef } from 'react';
 import { AppState, Recipe } from './types';
 import { generateRecipes } from './services/geminiService';
 import RecipeCard from './components/RecipeCard';
+import { Analytics } from '@vercel/analytics/react';
 
 const SUGGESTED_TAGS = [
   "Chicken", "Aloo", "Tamatar", "Pyaaz", "Dahi", "Palak", "Anda", "Daal", "Keema", "Bhindi"
@@ -435,6 +436,7 @@ const App: React.FC = () => {
           <p className="mt-2 italic opacity-50">Note: AI can make mistakes, please use your common sense while cooking!</p>
         </div>
       </footer>
+      <Analytics />
     </div>
   );
 };
