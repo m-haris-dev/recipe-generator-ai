@@ -1,5 +1,6 @@
 
 import React, { useState, useRef } from 'react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import { AppState, Recipe } from './types';
 import { generateRecipes } from './services/geminiService';
 import RecipeCard from './components/RecipeCard';
@@ -435,6 +436,7 @@ const App: React.FC = () => {
           <p className="mt-2 italic opacity-50">Note: AI can make mistakes, please use your common sense while cooking!</p>
         </div>
       </footer>
+      <SpeedInsights />
     </div>
   );
 };
