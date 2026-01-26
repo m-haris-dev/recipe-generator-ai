@@ -2,7 +2,7 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { Recipe } from "../types";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY || '' });
+const ai = new GoogleGenAI({ apiKey: process.env.VITE_API_KEY || '' });
 
 const SYSTEM_INSTRUCTION = `You are a world-class Pakistani home chef AI for the web tool 'Aj Kya Pakayen?'.
 The user will provide a list of ingredients they have at home and possibly some preferences (Spicy, Veg, Quick).
