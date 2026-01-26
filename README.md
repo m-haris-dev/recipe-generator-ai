@@ -1,12 +1,16 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Recipe Generator AI 🍳🤖
 
-# Run and deploy your AI Studio app
+A smart AI-powered recipe generator that suggests delicious meals based on the ingredients you have at home. Built with React and integrated with Google AI for recipe generation.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/temp/1
+## Features
+
+- Generate recipes by simply entering available ingredients
+- Option to filter by **Vegetarian**, **Quick Recipes**, or **Normal**
+- Surprise Me button for random recipe suggestions
+- Clean and responsive UI
+- AI-powered recipe generation
 
 ## Run Locally
 
