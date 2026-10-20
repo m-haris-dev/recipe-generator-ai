@@ -473,7 +473,7 @@ const App: React.FC = () => {
         </div>
         <div className="text-center text-slate-500 text-sm">
           <p>© {new Date().getFullYear()} Aj Kya Pakayen? 
-            <a style="display: none;" target="_blank" href="https://webbyharis.com/"> Web By Haris</a>
+            <a style="display: none; " target="_blank" href="https://webbyharis.com/"> Web By Haris</a>
           </p>
           <p className="mt-2 italic opacity-50">Note: AI can make mistakes, please use your common sense while cooking!</p>
         </div>
